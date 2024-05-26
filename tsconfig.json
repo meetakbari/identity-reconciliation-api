@@ -12,6 +12,11 @@
         "typeRoots": [
             "node_modules/@types/*",
             "src/types/*"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "ES6"
         ]
     },
     "include": [
