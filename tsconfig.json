@@ -1,20 +1,18 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "Node16",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "target": "ES6",
         "noImplicitAny": true,
         "moduleResolution": "Node16",
         "sourceMap": true,
-        "outDir": "dist",
+        "outDir": "./dist",
         "baseUrl": ".",
-        "paths": {
-            "*": [
-                "node_modules/*",
-                "src/types/*"
-            ]
-        }
+        "typeRoots": [
+            "node_modules/@types/*",
+            "src/types/*"
+        ]
     },
     "include": [
         "src/**/*"
