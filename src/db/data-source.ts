@@ -18,7 +18,7 @@ export const AppDataSource = new DataSource({
   database: POSTGRES_DB_NAME,
   synchronize: true,
   ssl: true,
-  logging: true,
+  logging: false,
   entities: [Contact],
   migrations: [],
 });
